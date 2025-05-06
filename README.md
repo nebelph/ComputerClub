@@ -8,9 +8,13 @@
 1. Скомпилировать код (средствами CMake и g++):
 
 cd CompClub
+
 mkdir build
+
 cd build
+
 cmake ..
+
 make
 
 2. Запустить программу 
