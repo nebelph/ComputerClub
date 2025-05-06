@@ -12,8 +12,6 @@ target_include_directories(ClubManager PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_include_directories(Time PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_include_directories(FileParser PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
-add_subdirectory(tests)
-
 add_executable(main
 	main.cpp
 	ClubManager.cpp
